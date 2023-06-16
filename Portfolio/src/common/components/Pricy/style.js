@@ -5,7 +5,7 @@ export const ContainerPricy = styled.div`
         return props.theme.colors.primary.primary2;
     }};
         display: flex;
-        flex-direction: row-reverse;    
+        flex-direction: row-reverse;
         justify-content: start;
         height: 400px;
         padding: 16px;
@@ -27,24 +27,20 @@ export const Content = styled.div`
 `
 
 export const Pri = styled.img`
-    trasition: transform .2s;
+    transition: transform .2s;
     object-fit: cover;
     border-radius: 155px;
     height: 347px;
     width: 296px;
     &:hover {
         transform: scale(1.3);
-        trasition: transform .6s;
+        transition: transform .6s;
     }
     @media (max-width: 480px) {
         width: 140px;
         height: 140px;
-        
+
     }
-    // @media (hover: hover) {
-    //     transform: scale(1.3);
-    //     trasition: transform .10s;
-    // }
 `
 
 export const Folha = styled.img`
@@ -63,13 +59,12 @@ export const Folha = styled.img`
         top: 81px;
         width: 483px;
     }
-`   
+`
 
 export const Info = styled.div`
     width: 500px;
     display: flex;
     flex-direction: column;
-    align-itens: end;
     gap: 26px;
     @media (max-width: 480px) {
         gap: 30px;
@@ -81,20 +76,30 @@ export const Button = styled.button`
     cursor: pointer;
     &:hover {
         transform: scale(1.3);
-        trasition: transform .6s;
+        transition: transform .6s;
     }
 `
 
 export const IconGit = styled.img`
     width: 62px;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.3);
+        transition: transform .6s;
+    }
     @media (max-width: 480px) {
         width: 32px;
     }
-    
+
 `
 
 export const IconIn = styled.img`
     width: 70px;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.3);
+        transition: transform .6s;
+    }
     @media (max-width: 480px) {
         width: 37px;
     }
@@ -118,4 +123,8 @@ export const Icons = styled.div`
         display: flex;
         flex-direction: column;
     }
+`
+
+export const Tag = styled.a`
+     z-index: 1;
 `

@@ -1,5 +1,5 @@
 import Typography from "../Typography";
-import { ContainerPricy, Content, Pri, Folha, Info, Button, IconGit, IconIn, ContentIcons, Icons } from "./style";
+import { ContainerPricy, Content, Pri, Folha, Info, Button, IconGit, IconIn, ContentIcons, Icons, Tag } from "./style";
 import theme from "../../theme"
 import { Link, useMediaQuery } from "@chakra-ui/react";
 
@@ -27,16 +27,12 @@ function Pricy() {
                         {isMobile && <Pri src="/pricy/me.jpg" />}
                         <Icons>
                             <div style={{ display: 'flex', gap: 10 }}>
-                                <a target="_blank" href="https://github.com/avilapricy">
-                                    <Button id="image-button">
-                                        <IconGit src="/pricy/github.png" />
-                                    </Button>
-                                </a>
-                                <a target="_blank" href="https://linkedin.com/in/pricy-ávila-69713a228">
-                                    <Button id="image-button">
-                                        <IconIn src="/pricy/in.png" />
-                                    </Button>
-                                </a>
+                                <Tag target="_blank" href="https://github.com/avilapricy">
+                                    <IconGit src="/pricy/github.png" />
+                                </Tag>
+                                <Tag target="_blank" href="https://linkedin.com/in/pricy-ávila-69713a228">
+                                    <IconIn src="/pricy/in.png" />
+                                </Tag>
                             </div>
                             <div>
                                 <Typography
