@@ -1,5 +1,5 @@
 import Typography from "../Typography";
-import { ContainerPricy, Content, Pri, Folha, Info, Button, IconGit, IconIn, ContentIcons } from "./style";
+import { ContainerPricy, Content, Pri, Folha, Info, Button, IconGit, IconIn, ContentIcons, Icons } from "./style";
 import theme from "../../theme"
 import { Link, useMediaQuery } from "@chakra-ui/react";
 
@@ -25,7 +25,7 @@ function Pricy() {
                     />
                     <ContentIcons>
                         {isMobile && <Pri src="/pricy/me.jpg" />}
-                        {isMobile && <div style={{ display: 'flex', flexDirection: 'column' }}>
+                        <Icons>
                             <div style={{ display: 'flex', gap: 10 }}>
                                 <a target="_blank" href="https://github.com/avilapricy">
                                     <Button id="image-button">
@@ -49,7 +49,7 @@ function Pricy() {
                                     +55 41 99790-5376
                                 </Link>
                             </div>
-                        </div>}
+                        </Icons>
                     </ContentIcons>
                 </Info>
                 {!isMobile && <Pri src="/pricy/me.jpg" />}

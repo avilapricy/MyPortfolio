@@ -109,3 +109,11 @@ export const ContentIcons = styled.div`
         gap: 29px;
     }
 `
+
+export const Icons = styled.div`
+    @media (max-width: 480px) {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+`
