@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Alura",
+        "info": "HTML, CSS, JavaScript"
+    },
+    {
+        "title": "Rocketseat",
+        "info": "Typescript, NodeJs, NestJs"
+    },
+    {
+        "title": "Ensino Médio",
+        "info": "Completo 2017"
+    }
+]

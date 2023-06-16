@@ -1,0 +1,30 @@
+{
+  "name": "casamento",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "antd": "^4.20.2",
+    "framer-motion": "^6.3.0",
+    "next": "^12.1.4",
+    "react": "18.0.0",
+    "react-countdown": "^2.3.2",
+    "react-dom": "18.0.0",
+    "styled-components": "^5.3.5",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4"
+  }
+}
