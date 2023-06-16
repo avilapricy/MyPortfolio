@@ -111,6 +111,8 @@ export const ContentIcons = styled.div`
 `
 
 export const Icons = styled.div`
+        gap: 10px;
+        display: flex;
     @media (max-width: 480px) {
         gap: 10px;
         display: flex;
