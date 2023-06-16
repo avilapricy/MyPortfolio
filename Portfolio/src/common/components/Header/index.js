@@ -1,6 +1,4 @@
 import { useMediaQuery } from "@chakra-ui/react";
-import Countdown from "../Countdown";
-import Logo from "../Logo";
 import Menu from "../Menu";
 
 function Header() {
@@ -11,7 +9,6 @@ function Header() {
         delete style.alignItems
     return (
         <div style={style}>
-            <Logo />
             <Menu />
         </div>
     )

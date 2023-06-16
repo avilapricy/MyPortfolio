@@ -12,7 +12,7 @@ export const ContainerPricy = styled.div`
         position: relative;
         overflow: hidden;
         @media (max-width: 480px){
-            height: 170px;
+            height: 500px;
         }
 `
 
@@ -22,6 +22,7 @@ export const Content = styled.div`
     gap: 120px;
     @media (max-width: 480px) {
         gap: 18px;
+        flex-direction: column;
     }
 `
 
@@ -36,7 +37,7 @@ export const Pri = styled.img`
         trasition: transform .6s;
     }
     @media (max-width: 480px) {
-        width: 202px;
+        width: 140px;
         height: 140px;
         
     }
@@ -59,7 +60,7 @@ export const Folha = styled.img`
     height: 439px;
     @media (max-width: 480px) {
         transform: rotate(-135deg);
-        top: -97px;
+        top: 81px;
         width: 483px;
     }
 `   
@@ -71,7 +72,8 @@ export const Info = styled.div`
     align-itens: end;
     gap: 26px;
     @media (max-width: 480px) {
-        gap: 9px;
+        gap: 30px;
+        width: 100%;
     }
 `
 
@@ -83,16 +85,27 @@ export const Button = styled.button`
     }
 `
 
-export const Icon = styled.img`
+export const IconGit = styled.img`
     width: 62px;
+    @media (max-width: 480px) {
+        width: 32px;
+    }
     
 `
 
 export const IconIn = styled.img`
     width: 70px;
+    @media (max-width: 480px) {
+        width: 37px;
+    }
 `
 
 export const ContentIcons = styled.div`
     display: flex;
     gap: 10px;
+    @media (max-width: 480px) {
+        margin: 40px 0;
+        align-items: center;
+        gap: 29px;
+    }
 `

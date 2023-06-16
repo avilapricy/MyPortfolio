@@ -10,9 +10,12 @@ export const ContainerList = styled.div`
     gap: 95px;
     overflow: hidden;
     @media (max-width: 480px) {
-        grid-template-columns: 1fr;
         gap: 30px;
         padding: 35px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
     }
 
 `
@@ -37,4 +40,14 @@ export const Image = styled.img`
 
 export const Info = styled.div`
     
+`
+
+export const ItemsResume = styled.div`
+    display:'flex';
+    gap: 30;
+    align-items:'baseline';
+    @media (max-width: 480px) {
+        display:'flex';
+        flex-direction: column;
+    }
 `
