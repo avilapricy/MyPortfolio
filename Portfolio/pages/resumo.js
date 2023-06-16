@@ -19,8 +19,7 @@ export default function Home(props) {
             variant='secondary'
             color={theme.colors.basic.basic7}
             type='h3'
-            children={'Trabalhos'}
-          />
+            >Trabalhos</Typography>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
             {
               work.map((work, index) => {
@@ -42,8 +41,7 @@ export default function Home(props) {
             variant='secondary'
             color={theme.colors.basic.basic7}
             type='h3'
-            children={'Educação'}
-          />
+            >Educação</Typography>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
             {
               education.map((edu, index) => {
