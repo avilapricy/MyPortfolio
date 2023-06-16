@@ -1,7 +1,7 @@
 import Footer from "../src/common/components/Footer";
 import Header from "../src/common/components/Header";
 import ItemList from "../src/common/components/ItemList";
-import { ContainerList, ItemsResume } from "../src/common/components/ItemList/style";
+import { ContainerList, ContainerResume, ItemsResume } from "../src/common/components/ItemList/style";
 import education from '../public/education.json';
 import work from '../public/work.json';
 import Typography from "../src/common/components/Typography";
@@ -14,7 +14,7 @@ export default function Home(props) {
   return (
     <div>
       <Header />
-      <ContainerList>
+      <ContainerResume>
         <ItemsResume>
           <Typography
             bold
@@ -59,7 +59,7 @@ export default function Home(props) {
             }
           </div>
         </ItemsResume>
-      </ContainerList>
+      </ContainerResume>
       <Footer />
     </div>
   )

@@ -20,6 +20,24 @@ export const ContainerList = styled.div`
 
 `
 
+export const ContainerResume = styled.div`
+    background: ${props => {
+        return props.theme.colors.primary.primary2;
+    }};
+    height: 400px;
+    display: flex;
+    padding: 100px 300px;
+    gap: 95px;
+    overflow: hidden;
+    @media (max-width: 480px) {
+        gap: 30px;
+        padding: 35px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+`
+
 export const ContainerItemList = styled.div`
     display: flex;
     gap: 20px;
